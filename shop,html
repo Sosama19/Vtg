@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Vintage Jersey Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Vintage Jersey Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="shop-header">
+            <h2>Shop Our Collection</h2>
+            <input type="text" id="search-bar" placeholder="Search for jerseys...">
+        </section>
+
+        <section class="product-list">
+            <div class="filters">
+                <h3>Filters</h3>
+                <label for="sport">Sport:</label>
+                <select id="sport">
+                    <option value="all">All</option>
+                    <option value="football">Football</option>
+                    <option value="basketball">Basketball</option>
+                    <!-- Add more sports as needed -->
+                </select>
+
+                <label for="era">Era:</label>
+                <select id="era">
+                    <option value="all">All</option>
+                    <option value="80s">80s</option>
+                    <option value="90s">90s</option>
+                    <!-- Add more eras as needed -->
+                </select>
+
+                <label for="team">Team:</label>
+                <select id="team">
+                    <option value="all">All</option>
+                    <option value="team1">Team 1</option>
+                    <option value="team2">Team 2</option>
+                    <!-- Add more teams as needed -->
+                </select>
+            </div>
+
+            <div class="products">
+                <!-- Repeat this block for each product -->
+                <div class="product">
+                    <img src="images/jersey3.jpg" alt="Jersey 3">
+                    <h3>Vintage Soccer Jersey</h3>
+                    <p>$89.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="newsletter">
+            <form>
+                <input type="email" placeholder="Subscribe to our newsletter">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <p>&copy; 2024 Vintage Jersey Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
